@@ -199,7 +199,7 @@ export default function Hero() {
             {/* Profile image */}
             <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-pink-400/30 bg-[#111827] shadow-2xl shadow-pink-500/20 sm:h-80 sm:w-80 lg:h-[390px] lg:w-[390px]">
               <Image
-                src="/images/profile.jpg"
+                src="/images/Profile.JPG"
                 alt="Gimhani Kavindya - Junior Software Developer"
                 fill
                 priority
