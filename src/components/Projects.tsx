@@ -9,7 +9,7 @@ import {
   useTransform,
 } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
-import { ExternalLink, ArrowDown, ArrowRight } from "lucide-react";
+import { ExternalLink, ArrowRight } from "lucide-react";
 
 const projects = [
   {
@@ -19,7 +19,7 @@ const projects = [
     description:
       "A responsive travel website developed for a real client to showcase travel services, destinations, and business information. Includes a customer review feature with Supabase integration.",
     technologies: ["React.js", "Vite", "Tailwind CSS", "Supabase", "Vercel"],
-    image: "/images/projects/fresco.jpg",
+    image: "/images/projects/fresco.jfif",
     device: "laptop",
     website: "https://www.frescotravels.lk/",
   },
@@ -30,7 +30,7 @@ const projects = [
     description:
       "A full-stack weather dashboard that retrieves current weather data for 10 fixed cities, calculates a custom Comfort Index, ranks cities, and displays results in an authenticated React dashboard.",
     technologies: ["React", "OpenWeatherMap API", "REST API"],
-    image: "/images/projects/fidez.jpg",
+    image: "/images/projects/fidez.jfif",
     device: "laptop",
     github: "https://github.com/Gimawickrama/fidenz_Weather",
   },
@@ -88,11 +88,13 @@ function ProjectMockup({
       <div className="mx-auto w-[210px] rounded-[2.5rem] border-[7px] border-[#303b50] bg-[#050912] p-2 shadow-[0_0_60px_rgba(236,72,153,0.18)] sm:w-[250px]">
         <div className="relative aspect-[9/18] overflow-hidden rounded-[1.8rem] bg-[#111827]">
           <div className="absolute left-1/2 top-2 z-10 h-4 w-16 -translate-x-1/2 rounded-full bg-black" />
+
           <Image
             src={project.image}
             alt={`${project.title} screenshot`}
             fill
             sizes="250px"
+            unoptimized
             className="object-contain"
           />
         </div>
@@ -109,6 +111,7 @@ function ProjectMockup({
             alt={`${project.title} screenshot`}
             fill
             sizes="(max-width: 768px) 85vw, 570px"
+            unoptimized
             className="object-contain"
           />
         </div>
@@ -126,6 +129,7 @@ function ProjectMockup({
             alt={`${project.title} screenshot`}
             fill
             sizes="(max-width: 768px) 90vw, 650px"
+            unoptimized
             className="object-contain"
           />
         </div>
@@ -181,7 +185,7 @@ export default function Projects() {
           style={{ x }}
           className="flex h-full w-[600vw]"
         >
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
               key={project.number}
               className="flex h-full w-screen shrink-0 items-center px-6 pb-10 pt-28 md:px-14 lg:px-20"
@@ -270,6 +274,7 @@ export default function Projects() {
                 >
                   <div className="relative w-full max-w-[650px]">
                     <div className="absolute -inset-8 rounded-full bg-pink-500/10 blur-3xl" />
+
                     <div className="relative">
                       <ProjectMockup project={project} />
                     </div>
