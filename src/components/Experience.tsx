@@ -36,7 +36,6 @@ const experiences = [
     "Developing independent web applications and software projects.",
     "Exploring Artificial Intelligence and Machine Learning concepts through practical projects.",
     "Learning and implementing modern frontend and backend technologies.",
-    "Building projects involving Docker, Kubernetes, and CI/CD concepts.",
     "Improving software development, problem-solving, and technical skills through continuous learning.",
   ],
 },
