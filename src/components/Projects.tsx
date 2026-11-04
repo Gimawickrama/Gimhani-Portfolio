@@ -19,7 +19,7 @@ const projects = [
     description:
       "A responsive travel website developed for a real client to showcase travel services, destinations, and business information. Includes a customer review feature with Supabase integration.",
     technologies: ["React.js", "Vite", "Tailwind CSS", "Supabase", "Vercel"],
-    image: "/images/projects/fresco.jfif",
+    image: "/images/projects/fresco.jpg",
     device: "laptop",
     website: "https://www.frescotravels.lk/",
   },
@@ -30,7 +30,7 @@ const projects = [
     description:
       "A full-stack weather dashboard that retrieves current weather data for 10 fixed cities, calculates a custom Comfort Index, ranks cities, and displays results in an authenticated React dashboard.",
     technologies: ["React", "OpenWeatherMap API", "REST API"],
-    image: "/images/projects/fidez.jfif",
+    image: "/images/projects/fidez.jpg",
     device: "laptop",
     github: "https://github.com/Gimawickrama/fidenz_Weather",
   },
