@@ -33,9 +33,11 @@ const experiences = [
   description:
     "Focused on independent software development projects, exploring emerging technologies, and continuously improving technical skills through hands-on learning and practical implementation.",
   responsibilities: [
-    "Developing independent web applications and software projects.",
-    "Exploring Artificial Intelligence and Machine Learning concepts through practical projects.",
+    "Developed and maintained websites and independent software applications, including a client website for Fresco Travels.",
+    "Integrated Supabase for backend services and database management, including review submission and moderation functionality.",
+    "Worked on frontend development, responsive UI design, and website functionality.",
     "Learning and implementing modern frontend and backend technologies.",
+    "Explored Artificial Intelligence and Machine Learning concepts through practical projects and API integrations.",
     "Improving software development, problem-solving, and technical skills through continuous learning.",
   ],
 },

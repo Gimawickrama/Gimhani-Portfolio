@@ -132,7 +132,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/CV/GIMHANI_WICKRAMANAYAKA_CV.pdf"
+              href="/CV/GimhaniWickramanayaka_CV.pdf"
               download="GIMHANI_WICKRAMANAYAKA_CV.pdf"
               className="flex items-center gap-3 rounded-xl border border-white/15 px-7 py-4 font-semibold text-gray-200 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-300"
             >
